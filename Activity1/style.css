@@ -2,7 +2,6 @@ body {
   margin: 0;
   padding: 0;
 }
-
 .flex {
   display: flex;
 }
@@ -31,7 +30,7 @@ nav {
   height: 200px;
   border: solid 1px black;
 }
-.rectangle {
+.container>div:nth-child(1)>div {
   width: 80px;
   height: 35px;
   background-color: #777;
@@ -54,6 +53,7 @@ nav {
   align-items: center;
 }
 .container>div:nth-child(2)>p {
+  flex: 0 1 0;
   margin: 0;
   padding: 8px;
 }
