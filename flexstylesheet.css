@@ -4,13 +4,13 @@ body {
 }
 .flex-container {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 .inline-flex-container {
   display: inline-flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
 .bg-red {
   background-color: red;
