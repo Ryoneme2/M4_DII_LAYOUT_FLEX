@@ -66,6 +66,22 @@ main > h1 {
 .reg:nth-child(2){
   height: 600px;
 }
-.reg>div:nth-child(3)>p{
+.reg>div:nth-child(2) {
+  flex-direction: column;
+}
+.reg>div:nth-child(2)>p {
+  text-align: center;
+  padding: 1rem;
+}
+.reg>div:nth-child(2)>h2{
   text-align: center;
 }
+.reg>div:nth-child(3)>div {
+  margin: 0 0.625rem;
+}
+.reg>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
