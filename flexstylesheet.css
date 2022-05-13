@@ -4,7 +4,7 @@ body {
 }
 .flex-container {
   display: flex;
-  flex-flow: row no-wrap;
+  flex-flow: row wrap;
   justify-content: flex-start;
 }
 .inline-flex-container {
@@ -23,7 +23,6 @@ body {
   margin: 10px;
   padding: 20px;
   font-size: 30px;
-  width: 800px;
 }
 .inline-flex-container>div {
   background-color: lightgray;
@@ -33,11 +32,14 @@ body {
 }
 .d1 {
   order: 1;
+  flex-basis: 200px;
 }
 .d2 {
   order: 3;
+  flex-basis: 100px;
 }
 .d3 {
   order: 2;
-  flex-shrink: 8;
+  flex-basis: 100px;
+  /* flex-shrink: 8; */
 }
