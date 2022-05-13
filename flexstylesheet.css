@@ -5,12 +5,12 @@ body {
 .flex-container {
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 .inline-flex-container {
   display: inline-flex;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 .bg-red {
   background-color: red;
@@ -29,4 +29,13 @@ body {
   margin: 20px;
   padding: 10px;
   font-size: 25px;
+}
+.d1 {
+  order: 1;
+}
+.d2 {
+  order: 3;
+}
+.d3 {
+  order: 2;
 }
