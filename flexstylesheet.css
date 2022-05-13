@@ -32,14 +32,14 @@ body {
 }
 .d1 {
   order: 1;
-  flex-basis: 200px;
+  flex: 0 0 200px;
 }
 .d2 {
   order: 3;
-  flex-basis: 100px;
+  flex: 0 0 100px;
 }
 .d3 {
   order: 2;
-  flex-basis: 100px;
-  /* flex-shrink: 8; */
+  flex: 0 0 100px;
+  
 }
