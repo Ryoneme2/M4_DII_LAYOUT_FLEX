@@ -10,7 +10,7 @@ nav {
   background-color: #ccc;
   padding: 0.625rem 0;
   border: solid 1px black;
-  width: 700px;
+  width: 50vw;
 }
 .square {
   width: 50px;
@@ -27,7 +27,7 @@ nav {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  width: 700px;
+  width: 50vw;
   height: 200px;
   border: solid 1px black;
 }
